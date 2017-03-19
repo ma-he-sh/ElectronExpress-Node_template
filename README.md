@@ -1,2 +1,11 @@
-# ElectronExpress-Node_template
-Electron, Express and node template
+### ELECTRON, EXPRESS AND NODE
+
+```sh
+npm install
+
+npm start
+```
+
+```
+SERVER ON PORT: 5555
+```

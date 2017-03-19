@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        title=title
+
+    body
+        | Node V: 
+        script.
+            document.write(process.versions.node);
+        br
+        
+        | Chrome V:
+        script.
+            document.write(process.versions.chrome);
+        br
+
+        | Electron V:
+        script.
+            document.write(process.versions.electron);
+        

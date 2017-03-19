@@ -1,0 +1,21 @@
+{
+  "name": "electronode",
+  "version": "1.0.0",
+  "description": "testing electron and node",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahesh-ranaweera",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "jquery": "^3.2.0",
+    "pug": "^2.0.0-beta11"
+  }
+}
