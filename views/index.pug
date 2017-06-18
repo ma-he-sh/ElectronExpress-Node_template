@@ -2,6 +2,7 @@ doctype html
 html
     head
         title=title
+        link(rel='stylesheet', href='/style/app.css')
 
     body
         | Node V: 
@@ -18,3 +19,5 @@ html
         script.
             document.write(process.versions.electron);
         
+        .wrapper
+            | < ElectronExpressNodeJS >
